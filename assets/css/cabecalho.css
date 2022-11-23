@@ -1,0 +1,4 @@
+.cabecalho{
+   width: 100vw; 
+   background: var(--fondo-cabecalho);
+}
