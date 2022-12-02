@@ -2,9 +2,30 @@
     display: flex;
     margin: 0 5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     padding: 0.5rem 0;
 }
 .menu__logo--img{
     height: 3rem;
+    margin-right: 3rem;
+}
+.menu__nav{
+    width: 100%;
+}
+.menu__lista{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.txt__buscar{
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;    
+    background: var(--fondo-gris);
+}
+.boton__login{
+    height: 30px;
+    width: 90px;
+    
 }

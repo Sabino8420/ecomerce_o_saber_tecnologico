@@ -1,3 +1,7 @@
+body{
+    background: var(--fondo-cuerpo) ;
+}
 :root{
-    --fondo-cabecalho: #cccccc;
+    --fondo-gris: #F5F5F5;
+    --fondo-cuerpo: #ffffff;
 }
