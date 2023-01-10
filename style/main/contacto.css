@@ -1,0 +1,50 @@
+.contacto{
+    background: var(--fondo-lila);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 300px;
+
+}
+.enlaces-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    font-weight: bold;
+}
+.container-form{
+    width:  50%;
+    padding-right: 300px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.txt-nombre{
+    Width: 560px;
+    Height: 56px;
+    Gap:   4px;
+}
+.txt-mensaje{
+    Width: 560px;
+    Height: 82px;
+    Gap:   4px;
+}
+.btn-enviar{
+    width: 165px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+}
+.btn-enviar:hover{
+ background: var(--fondo-lila);
+ cursor: pointer;
+ border: solid;
+}

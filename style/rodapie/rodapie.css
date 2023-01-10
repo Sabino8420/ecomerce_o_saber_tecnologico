@@ -1,0 +1,9 @@
+.rodapie{
+    height: 4rem;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

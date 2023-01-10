@@ -1,48 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecomerce OST</title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/menu/itensMenu.css">
-    <link rel="stylesheet" href="assets/css/banner.css">
-
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/styleGeral.css">
+    <link rel="stylesheet" href="style/header/menu.css">
+    <link rel="stylesheet" href="style/header/banner.css">
+    <link rel="stylesheet" href="style/main/productos.css">
+    <link rel="stylesheet" href="style/main/contacto.css">
+    <link rel="stylesheet" href="style/rodapie/rodapie.css">
+    <title>Document</title>
 </head>
 <body>
-  <header>
-    <section class="cabecalho">
-        <div class="menu">
-            <div class="menu__logo">
-              <img alt="fds" class="menu__logo--img"src="assets/img/logo_ecommerce.png" />  
+    <header>
+        <section class="menu">
+            <img class="logo" src="img/logo_ost_transparente.png">
+            <nav>
+                <input type="text" class="buscar">
+                <input type="button" value="Login" class="boton-login">
+            </nav>            
+        </section>
+        <section class="banner">
+            <div class="container-logo">
+                <img class="logo-banner" src="img/logo_ost_transparente.png">
             </div>
-            <nav class="menu__nav">
-                <ul class="menu__lista">
-                    <il class="menu__itens"><input class= "txt__buscar" type="text"></il>
-                    <il class="menu__itens"><input class="boton__login" type="button" value="Login"></il>
-                </ul>
-            </nav>
-        </div>
-        <div class="banner">
-            <img class= "logo__empresa"src="assets/img/logo_danna.png" alt=""/>
-        </div>
-      <section class="produtos" >
-        
-      </section>
-  
-    </section>
-  </header>
-  <main>
+        </section>
+   </header>
+   <main>
+        <section class="productos">
+            <div class="tarjeta-producto">
+                <img src="img/logo-sabimaticas.jpg" alt="logo SabiMáticas" class="img-producto">
+                <p class="titulo-producto">Título producto</p>
+                <p class="descripcion-producto">Descripción producto</p>
+                <p class="precio-producto">Precio producto</p>
+            </div>
 
-  </main>
-  <footer>
+            <div class="tarjeta-producto">
+                <img src="img/logo-binocles.jpg" alt="logo SabiMáticas" class="img-producto">
+                <p class="titulo-producto">Título producto</p>
+                <p class="descripcion-producto">Descripción producto</p>
+                <p class="precio-producto">Precio producto</p>
+            </div>
 
-  </footer>  
+            <div class="tarjeta-producto">
+                <img src="img/logo-contactos.jpg" alt="logo SabiMáticas" class="img-producto">
+                <p class="titulo-producto">Título producto</p>
+                <p class="descripcion-producto">Descripción producto</p>
+                <p class="precio-producto">Precio producto</p>
+            </div>
+
+            <div class="tarjeta-producto">
+                <img src="img/logo-binocles.jpg" alt="logo SabiMáticas" class="img-producto">
+                <p class="titulo-producto">Título productof ffffff ffff fffff fffffffffffff ffffffffffff f</p>
+                <p class="descripcion-producto">Descripción producto</p>
+                <p class="precio-producto">Precio producto</p>
+            </div>
+
+            <div class="tarjeta-producto">
+                <img src="img/logo-binocles.jpg" alt="logo SabiMáticas" class="img-producto">
+                <p class="titulo-producto">Título producto</p>
+                <p class="descripcion-producto">Descripción producto</p>
+                <p class="precio-producto">Precio producto</p>
+            </div>
+
+            <div class="tarjeta-producto">
+                <img src="img/logo-binocles.jpg" alt="logo SabiMáticas" class="img-producto">
+                <p class="titulo-producto">Título producto</p>
+                <p class="descripcion-producto">Descripción producto</p>
+                <p class="precio-producto">Precio producto</p>
+            </div>
+        </section>
+        <section class="contacto">
+            <div>
+                <img class="logo" src="img/logo_ost_transparente.png" alt="logo">             
+            </div>
+            <div class="enlaces-info">
+                <p>Quienes somos</p>
+                <p>Política de privacidad</p>
+                <p>Quienes somos</p>
+                <p>Política de privacidad</p>            
+            </div>
+            <div class="container-form">
+                <form class="formulario" action="https://formsubmit.co/ost.sabino.garcia.palechor@gmail.com" method="POST">
+                    <p>Contáctenos</p>
+                    <input type="text" class="txt-nombre" required placeholder="Nombre" name="nombre">
+                    <input type="text" class="txt-mensaje" required placeholder="Escriba su mensaje" name="mensaje">
+                    <input type="submit" class="btn-enviar" value="Enviar Mensaje">
+                </form>
+            </div>
+        </section>          
+   </main>
+   <footer class="rodapie">
+        <p> Desarrollado por Sabino García Palechor<br>2022</p>
+      
+   </footer>
+    
 </body>
 </html>

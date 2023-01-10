@@ -1,0 +1,9 @@
+:root {
+    --fondo-general: #99ccff;
+    --white: #ffffff;
+    --fondo-lila: #eee6ff;
+  }
+  
+body{
+background: var(--fondo-general);    
+}

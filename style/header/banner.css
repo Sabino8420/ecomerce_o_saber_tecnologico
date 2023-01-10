@@ -1,0 +1,6 @@
+.banner{   
+  background-color: var(--fondo-lila);
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
